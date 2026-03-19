@@ -1,4 +1,4 @@
-# 🌾 Agroclimatic Pipeline — Haute Matsiatra, Madagascar
+# Agroclimatic Pipeline — Haute Matsiatra, Madagascar
 
 > Pipeline for computing agroclimatic indicators (SPI, SPEI, ET₀, GDD, WRSI, NDVI…)  
 > for the Haute Matsiatra region, Madagascar — Agricultural seasons 2011/12 to 2017/18  
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project is part of a doctoral thesis on the **agroclimatic analysis of Haute Matsiatra** (Madagascar). The two scripts aim to **build a multivariate agroclimatic database** at the district level over **7 agricultural seasons (2011/12 – 2017/18)** for the analysis of agricultural exposure to drought.
 
@@ -33,7 +33,7 @@ The pipeline consists of **two scripts** to be run in order:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 📦 agroclimatic-pipeline-haute-matsiatra/
@@ -59,7 +59,7 @@ The pipeline consists of **two scripts** to be run in order:
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 ### Environment
 - Python ≥ 3.10 (Google Colab recommended)
@@ -79,7 +79,7 @@ pip install climate-indices earthengine-api geopandas rasterio \
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Step 1 — SPI & SPEI Computation (1991–2020 baseline)
 
@@ -100,7 +100,7 @@ OUTPUT_DIR = "/content/drive/MyDrive/DATA_THESES_MADATLAS/SPI_SPEI_FINAL"
 
 ### Step 2 — Full Agroclimatic Pipeline
 
-> ⚠️ **Prerequisite**: Step 1 must be completed first.
+> **Prerequisite**: Step 1 must be completed first.
 
 ```python
 # pipeline_agroclimatique_v2.py
@@ -117,7 +117,7 @@ OUTPUT_DIR          = "/content/drive/MyDrive/DATA_THESES_MADATLAS/DONNEES_COMPL
 
 ---
 
-## 📐 Scientific Methods
+##  Scientific Methods
 
 ### Drought Indices
 
@@ -166,7 +166,7 @@ Reference: Allen et al. (1998)
 
 ---
 
-## 🛰️ Data Sources
+##  Data Sources
 
 | Data | Source | Resolution |
 |------|--------|------------|
@@ -178,7 +178,7 @@ Reference: Allen et al. (1998)
 
 ---
 
-## 📅 Crop Phases
+##  Crop Phases
 
 The agricultural season in Haute Matsiatra runs from **November to May**:
 
@@ -192,7 +192,7 @@ Season Y = November(Y) → May(Y+1)
 
 ---
 
-## ✅ SPI/SPEI Validation
+##  SPI/SPEI Validation
 
 Script 1 performs automatic **cross-validation**:
 
@@ -208,7 +208,7 @@ Script 1 performs automatic **cross-validation**:
 
 ---
 
-## 🤖 Place of These Scripts in the Thesis
+##  Place of These Scripts in the Thesis
 
 These two scripts constitute the **data constitution phase** of the thesis.
 
@@ -232,7 +232,7 @@ These two scripts constitute the **data constitution phase** of the thesis.
 
 ---
 
-## 📊 Dataset Variables
+## Dataset Variables
 
 ### X — Input Features (111 variables)
 
@@ -385,7 +385,7 @@ Y  →  yield_rice_t_ha               (target — Rice)
 
 ---
 
-## 📚 References
+## References
 
 ```
 Allen, R.G. et al. (1998). Crop evapotranspiration. FAO Irrigation and Drainage Paper 56.
@@ -400,7 +400,7 @@ WMO (2018). Guide to Climatological Practices. WMO-No. 100.
 
 ---
 
-## 👤 Author & Supervision
+## Author & Supervision
 
 **Larissa RAMIANDRISOA**  
 PhD Candidate — Université de Fianarantsoa / Université Gustave Eiffel  
@@ -415,7 +415,7 @@ Year: 2025
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE) — free to use with attribution.
 
