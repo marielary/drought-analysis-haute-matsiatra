@@ -5,7 +5,7 @@
 > Climatological baseline: 1991–2020 (WMO standard)  
 >  
 > **Objective**: build a district-scale agroclimatic database (7 seasons: 2011/12 – 2017/18)  
-> for the analysis of **agricultural exposure to drought** in Haute Matsiatra.
+> to select features important for the analysis of **agricultural exposure to drought** in Haute Matsiatra.
 
 ---
 
